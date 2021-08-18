@@ -11,6 +11,7 @@ my_turtle.pencolor("green")#ペンの色を緑
 my_turtle.fillcolor("red")#塗りの色を赤
 #screen.bgcolor("yellow")#スクリーンの背景色
 
+#my_turtle.goto(100, 300)#座標(x,y)にタートルを移動する
 my_turtle.forward(100)
 my_turtle.left(90)
 my_turtle.forward(100)
@@ -27,4 +28,5 @@ my_turtle.forward(200)
 my_turtle.pendown()#ペンを下げる
 my_turtle.forward(150)
 my_turtle.circle(200)#円を描く
+
 screen.mainloop()
